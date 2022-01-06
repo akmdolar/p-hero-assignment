@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Body Start */
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Yeseva One", cursive;
+}
+
+.wrapper {
+  width: 1260px;
+  margin: auto;
+}
+
+/* ************************************* */
+/* Section 1 | Mission 2022 Style Start */
+/* *********************************** */
+
+/* Button Hover */
+a.explore-button:hover {
+  background-image: linear-gradient(40deg, #ef00ff, #511cbd);
+  transition: 3s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.mission-content {
+  width: 60%;
+}
+
+.mission-image {
+  width: 40%;
+}
+
+.style-mission-text {
+  color: #511cbd;
+}
+.mission-h1 {
+  font-size: 60px;
+  border-left: 1px solid #511cbd;
+  border-width: 5px;
+  padding: 0 0 0 15px;
+  font-family: "Yeseva One", cursive;
+  margin-bottom: 30px;
+}
+
+p.akm-dolar {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.explore-button {
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  padding: 8px 12px;
+  background-image: linear-gradient(90deg, #0064ff, #511cbd);
+  border-radius: 5px;
+}
+
+.scroll {
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+}
+
+.mission-image img {
+  width: 95%;
+}
+
+/* ***************************************** */
+/* Section 2  | My Mission 2022 Style Start */
+/* **************************************** */
+.my-mission h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 45px;
+  font-family: "poppins", sans-serif;
+}
+
+.mvg_card {
+  display: flex;
+}
+
+.mission-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: antiquewhite;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.vission-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: rgb(215, 231, 250);
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.goal-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: rgb(233, 215, 250);
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.mission-card img {
+  width: 50%;
+}
+
+.vission-card img {
+  width: 50%;
+}
+
+.goal-card img {
+  width: 50%;
+}
+
+.mission-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.mission-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.vission-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.vission-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.goal-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.goal-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* ***************************************** */
+/* Section 3  | Develop Without Limit Style Start */
+/* **************************************** */
+section.develop {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.develop-image img {
+  width: 100%;
+}
+
+.develop-image {
+  width: 40%;
+  position: relative;
+}
+
+.develop-content {
+  width: 60%;
+  padding-left: 45px;
+}
+
+.develop-content h1 {
+  font-family: "Poppins";
+  font-size: 32px;
+  line-height: 46px;
+  padding-bottom: 15px;
+}
+
+.develop-content p {
+  font-family: "Poppins";
+  width: 70%;
+  padding-bottom: 25px;
+}
+
+img.coding {
+  z-index: 1111;
+  position: relative;
+}
+
+img.shape-coding {
+  position: absolute;
+  width: 60%;
+  left: -25%;
+  top: 12%;
+}
+
+/* ***************************************** */
+/* Section 4  | Know our Global Community Style Start */
+/* **************************************** */
+section.community {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+img.shape-image {
+  position: absolute;
+  width: 45% !important;
+  right: -15%;
+  bottom: -14%;
+  z-index: -111;
+}
+
+.community-image img {
+  width: 100%;
+}
+
+.community-image {
+  width: 40%;
+  position: relative;
+}
+
+.community-content {
+  width: 60%;
+}
+
+.community-content h1 {
+  font-family: "Poppins";
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+.community-content p {
+  font-family: "Poppins";
+  width: 60%;
+  padding-bottom: 25px;
+}
+
+/* ***************************************** */
+/* Section 5  | Customer Style Start */
+/* **************************************** */
+.customer-heading-p {
+  font-family: "Poppins";
+  width: 450px;
+  text-align: center;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.span-customer {
+  color: #511cbd;
+}
+
+.customer-card {
+  display: flex;
+}
+
+.feedback-one h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.feedback-two h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.feedback-three h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.feedback-comment-one {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.feedback-one-image img {
+  width: 60%;
+}
+
+.feedback-two-image img {
+  width: 60%;
+}
+
+.feedback-three-image img {
+  width: 60%;
+}
+
+section.customer-feedback h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  font-family: "Poppins";
+  font-size: 37px;
+}
+
+.feedback-one {
+  border: 1px solid rgba(206, 206, 206, 0.404);
+  margin: 25px;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 33.3%;
+  border-radius: 15px;
+}
+
+.feedback-two {
+  border: 1px solid rgba(206, 206, 206, 0.404);
+  margin: 25px;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 33.3%;
+  border-radius: 15px;
+}
+
+.feedback-three {
+  border: 1px solid rgba(206, 206, 206, 0.404);
+  margin: 25px;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 33.3%;
+  border-radius: 15px;
+}
+
+.feedback-one-image {
+  width: 30%;
+}
+
+.feedback-one-content {
+  width: 70%;
+}
+
+.feedback-two-image {
+  width: 30%;
+}
+
+.feedback-two-content {
+  width: 70%;
+}
+.feedback-three-image {
+  width: 30%;
+}
+
+.feedback-three-content {
+  width: 70%;
+}
+
+.feedback-one-content p {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.feedback-two-content p {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.feedback-three-content p {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.customer-name {
+  font-family: "Poppins";
+  font-size: 16px !important;
+  font-weight: 500;
+}
+/* ***************************************** */
+/* Section 5  | Customer Style Start */
+/* **************************************** */
+/* ***************************************** */
+/* Section 6  | Footer Style Start */
+/* **************************************** */
+
+footer {
+  background-color: #000;
+  width: 100% !important;
+  height: 110px;
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+  margin-top: 45px;
+}
+
+footer h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 33px;
+  letter-spacing: 3px;
+}
+
+p.footer-text {
+  text-align: center;
+  color: rgb(153, 153, 153);
+  font-family: "Poppins";
+  font-size: 12px;
+  padding-top: 8px;
+}
+.footer-2022 {
+  color: #884dff;
+}
+/* ***************************************** */
+/* Section 6  | Footer Style End */
+/* **************************************** */
